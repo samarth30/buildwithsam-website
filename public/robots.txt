@@ -1,8 +1,8 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://buildwithsam.co/sitemap.xml
+Sitemap: https://workwithsam.co/sitemap.xml
 
 # GEO
-# https://buildwithsam.co/llms.txt
-# https://buildwithsam.co/about.md
+# https://workwithsam.co/llms.txt
+# https://workwithsam.co/about.md

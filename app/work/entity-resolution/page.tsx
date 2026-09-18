@@ -41,7 +41,7 @@ export default function EntityResolution() {
         <h2>Constraints</h2>
         <p>
           I was one of the first engineers. I owned the data and AI layer from
-          pre-seed to Series A, about $30M raised. Remote. The TikTok data we
+          pre-seed through Series A. Remote. The TikTok data we
           needed was not on the public API.
         </p>
 
@@ -62,9 +62,9 @@ export default function EntityResolution() {
 
         <h2>Numbers</h2>
         <p>
-          Five sources. One schema. Data-layer response times down 60%. Series A
-          on about $30M raised. I did not raise that round. I owned the data
-          layer under it.
+          Five sources. One schema. Data-layer response times down 60%. I was
+          there from pre-seed through Series A. I did not raise that round. I
+          owned the data layer under it.
         </p>
 
         <h2>Stack</h2>

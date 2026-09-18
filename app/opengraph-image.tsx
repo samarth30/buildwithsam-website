@@ -61,7 +61,7 @@ export default function OpengraphImage() {
             fontWeight: 600,
           }}
         >
-          buildwithsam.co
+          workwithsam.co
         </div>
       </div>
     ),

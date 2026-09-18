@@ -4,14 +4,14 @@ Software engineer — backend, data, and agent systems.
 
 Samarth Gugnani builds backend and data infrastructure and the LLM systems on top of them: billing that stays correct under concurrency, pipelines that turn messy third-party APIs into records you can trust, and the guardrails that decide where an agent runs alone and where a human signs off.
 
-Site: https://buildwithsam.co
+Site: https://workwithsam.co
 Email: samarth.gugnani30@gmail.com
 GitHub: https://github.com/samarth30 (samarth30)
 LinkedIn: https://www.linkedin.com/in/samarth30
 X: https://x.com/samarth0x (samarth0x)
 Location: Remote · six years remote for distributed teams · overlap hours US, EU or APAC
 
-This file is the markdown mirror of https://buildwithsam.co/about.
+This file is the markdown mirror of https://workwithsam.co/about.
 
 ## Now
 
@@ -35,7 +35,7 @@ Built a revenue / GTM data stack from scratch and ran it in production:
 - Operator UI in Next.js, React, TypeScript: human accepts / rejects / corrects before anything ships.
 - Built with Claude Code and Cursor as daily tools: custom skills, subagents, MCP integrations. What an agent may settle without a human is decided up front.
 
-Writeup: https://buildwithsam.co/work/gtm-stack
+Writeup: https://workwithsam.co/work/gtm-stack
 
 ## Eliza Labs — Senior Software Engineer (Nov 2024–Mar 2026)
 
@@ -47,17 +47,17 @@ San Francisco Bay Area, remote. One of the first engineers, reported to the CTO.
 - Reviewed and merged work from 100+ contributors; mentored interns fully async across a 12-hour time difference.
 - Stayed through a $20M funding round. The project became a large open-source agent ecosystem; its token peaked at a $2.5B market cap. Samarth Gugnani did not found Eliza and did not own the token. He was an early engineer and core maintainer who owned billing.
 
-Writeup: https://buildwithsam.co/work/eliza-billing
+Writeup: https://workwithsam.co/work/eliza-billing
 
 ## Camp Network — Full-stack engineer (Jun 2023–Oct 2024)
 
-Remote. One of the first engineers. Owned the data and AI layer from pre-seed to Series A, ~$30M raised.
+Remote. One of the first engineers. Owned the data and AI layer from pre-seed through Series A. Tenure only — he did not raise that round.
 
 - Reverse-engineered TikTok’s private API; scrapers for data public endpoints did not expose.
 - Entity resolution across TikTok, YouTube, Twitter/X, Instagram, Spotify — five sources that agreed on nothing — into one schema. Data-layer response times down 60%.
 - AI chatbot on metrics: satisfaction +30%, support tickets −40%.
 
-Writeup: https://buildwithsam.co/work/entity-resolution
+Writeup: https://workwithsam.co/work/entity-resolution
 
 ## Shield (a16z-backed), freelance — Mar 2023–Jun 2023
 
@@ -100,7 +100,7 @@ Not listed, on purpose: Solidity, Ethereum, Web3, Hardhat, smart contracts.
 ## Contact
 
 samarth.gugnani30@gmail.com
-https://buildwithsam.co
+https://workwithsam.co
 https://github.com/samarth30
 https://www.linkedin.com/in/samarth30
 https://x.com/samarth0x

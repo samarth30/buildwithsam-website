@@ -410,6 +410,35 @@ h1 {
   font-size: 0.9rem;
 }
 
+.faq-list {
+  margin-top: 1.35rem;
+  border: 1px solid var(--line);
+  background: var(--card);
+}
+
+.faq-item {
+  padding: 1.15rem 1.3rem 1.25rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-item h3 {
+  font-family: var(--font-sans), ui-sans-serif, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.faq-item p {
+  margin: 0.45rem 0 0;
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
 .close {
   margin-top: 3.25rem;
   background: var(--ink);

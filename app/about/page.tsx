@@ -78,8 +78,8 @@ export default function AboutPage() {
         <h2>Camp Network</h2>
         <p>
           Full-stack engineer, June 2023–October 2024. One of the first
-          engineers. Owned the data and AI layer from pre-seed to Series A,
-          about $30M raised. Reverse-engineered TikTok’s private API. Entity
+          engineers. Owned the data and AI layer from pre-seed through Series A.
+          Reverse-engineered TikTok’s private API. Entity
           resolution across TikTok, YouTube, Twitter/X, Instagram and Spotify.
           Data-layer response times down 60%. An AI chatbot on metrics:
           satisfaction +30%, support tickets −40%.

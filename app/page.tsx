@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-import { homeIntro, site } from "@/lib/site";
+import { faqJsonLd, faqs, homeIntro, site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: { absolute: site.title },
@@ -147,6 +147,10 @@ const experience = [
 export default function Home() {
   return (
     <main id="content">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <div className="shell">
         <header className="hero">
           <div className="hero-id">
@@ -289,6 +293,37 @@ export default function Home() {
             Unbox Innovations, Google Summer of Code (Amahi). B.Tech Computer
             Science, Chitkara University. I am not a blockchain developer.
           </p>
+        </section>
+
+        <section
+          className="section"
+          id="faq"
+          aria-labelledby="faq-heading"
+          itemScope
+          itemType="https://schema.org/FAQPage"
+        >
+          <p className="kicker">FAQ</p>
+          <h2 id="faq-heading">Straight answers.</h2>
+          <div className="faq-list">
+            {faqs.map((item) => (
+              <article
+                key={item.q}
+                className="faq-item"
+                itemScope
+                itemProp="mainEntity"
+                itemType="https://schema.org/Question"
+              >
+                <h3 itemProp="name">{item.q}</h3>
+                <div
+                  itemScope
+                  itemProp="acceptedAnswer"
+                  itemType="https://schema.org/Answer"
+                >
+                  <p itemProp="text">{item.a}</p>
+                </div>
+              </article>
+            ))}
+          </div>
         </section>
 
         <section className="close" aria-labelledby="close-heading">
