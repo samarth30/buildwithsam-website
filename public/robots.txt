@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://buildwithsam.co/sitemap.xml
+
+# GEO
+# https://buildwithsam.co/llms.txt
+# https://buildwithsam.co/about.md
